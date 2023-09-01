@@ -18,13 +18,13 @@ public class Listener1Class implements ITestListener    //Listnerclass
 	@Override
 	public void onTestFailure(ITestResult result) 
 	{
-		System.out.println("tc failed to exec");
+		//System.out.println("tc failed to exec");
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) 
 	{
-		System.out.println("skipped tc");
+		//System.out.println("skipped tc");
 	}
 
 }
