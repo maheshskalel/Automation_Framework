@@ -6,13 +6,13 @@ public class Listener1Class implements ITestListener    //Listnerclass
 	@Override
 	public void onTestStart(ITestResult result) 
 	{
-		System.out.println("tc execution started");
+		//System.out.println("tc execution started");
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) 
 	{
-		System.out.println("tc successfully exe");
+		//System.out.println("tc successfully exe");
 	}
 
 	@Override
