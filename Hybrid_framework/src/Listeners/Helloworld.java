@@ -13,7 +13,7 @@ public class Helloworld  //Runnerclass
  @Test
  public void test2()
   {
-	//System.out.println("hello India");
+	System.out.println("hello India");
  	Assert.fail();
   }
  @Test (dependsOnMethods = "test2")
