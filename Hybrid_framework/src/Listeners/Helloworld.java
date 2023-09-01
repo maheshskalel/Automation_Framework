@@ -8,17 +8,17 @@ public class Helloworld  //Runnerclass
  @Test
  public void test1()
   {
-	System.out.println("hello bengaluru");
+	//System.out.println("hello bengaluru");
   }
  @Test
  public void test2()
   {
-	System.out.println("hello India");
+	//System.out.println("hello India");
  	Assert.fail();
   }
  @Test (dependsOnMethods = "test2")
  public void test3()
   {
-	System.out.println("hello Asia");
+	//System.out.println("hello Asia");
   }
 }
